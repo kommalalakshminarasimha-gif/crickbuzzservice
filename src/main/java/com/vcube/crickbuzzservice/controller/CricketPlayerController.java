@@ -18,8 +18,10 @@ import com.vcube.crickbuzzservice.repo.CricketPlayerRepo;
 
 @CrossOrigin(origins = {
 	    "http://localhost:5173",
-	    "https://YOUR-ACTUAL-FRONTEND-DOMAIN.vercel.app"
-	})@RestController
+	    "https://crickbuzzservice.vercel.app",
+	    "https://cricket-frontend-pi.vercel.app"
+	})
+@RestController
 @RequestMapping("/cricket")
 public class CricketPlayerController {
 	
